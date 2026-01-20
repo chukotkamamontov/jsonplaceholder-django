@@ -1,0 +1,20 @@
+[
+  {
+    "model": "api.post",
+    "pk": 1,
+    "fields": {
+      "user": 1,
+      "title": "sunt aut facere repellat",
+      "body": "quia et suscipit suscipit recusandae"
+    }
+  },
+  {
+    "model": "api.post",
+    "pk": 2,
+    "fields": {
+      "user": 2,
+      "title": "qui est esse",
+      "body": "est rerum tempore vitae"
+    }
+  }
+]
