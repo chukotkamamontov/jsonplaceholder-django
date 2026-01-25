@@ -76,22 +76,12 @@ WSGI_APPLICATION = 'config.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        "NAME": "jsonplaceholder",
-        # Название БД, которую мы создали
-
-        "USER": "postgres",
-        # Пользователь PostgreSQL
-
-        "PASSWORD": "postgres",
-        # Пароль этого пользователя
-
-        "HOST": "localhost",
-        # Где запущен Postgres
-        # localhost = на этой же машине
-
-        "PORT": "5432",
-        # Стандартный порт PostgreSQL
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'jsonplaceholder',
+        'USER': 's.kharitonov',
+        'PASSWORD': 'Palata@6',
+        'HOST': 'localhost',
+        'PORT': '5432',
     }
 }
 
