@@ -69,6 +69,7 @@ def user_update(request, pk):
     user.email = data.get('email', user.email)
     user.password = data.get('password', user.password)
     user.is_staff = data.get('is_staff', user.is_staff)
+    user.age = data.get('age', user.age)
     user.save()
     return JsonResponse({'message': 'User updated'})
 

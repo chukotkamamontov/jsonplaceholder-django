@@ -4,6 +4,7 @@ from django.db import models
 class User(AbstractUser):
     name = models.CharField(max_length=100)
     email = models.EmailField()
+    age = models.IntegerField(null=True, blank=True)  # новый столбец
 
     # Переопределяем groups с уникальным related_name
     groups = models.ManyToManyField(
